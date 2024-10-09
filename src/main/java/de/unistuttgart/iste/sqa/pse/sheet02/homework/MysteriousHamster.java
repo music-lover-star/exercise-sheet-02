@@ -7,7 +7,7 @@ import de.hamstersimulator.objectsfirst.external.model.Hamster;
  * Mysterious hamsters are a mystery, their actions are very mysterious.
  *
  * Class for exercise 3 on sheet 02.
- * 
+ *
  * @author (Your name)
  *
  */
@@ -90,15 +90,11 @@ public final class MysteriousHamster {
 	void doSomething9() {
 		hamster.move();
 		stepCounter++;
-		boolean hadGrain = !hamster.mouthEmpty();
 		while (!hamster.mouthEmpty()) {
 			hamster.putGrain();
 		}
 		hamster.move();
 		stepCounter++;
-		if (hadGrain) {
-			hamster.write("Oops! I guess I was too fast there!");
-		}
 	}
 	/**
 	 * This method is used to grant mysterioushamster-objects access the {@link Hamster#write(String)} method.
