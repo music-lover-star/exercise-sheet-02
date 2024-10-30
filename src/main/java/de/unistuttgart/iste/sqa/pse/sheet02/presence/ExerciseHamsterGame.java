@@ -12,7 +12,7 @@ public class ExerciseHamsterGame extends InternalExerciseHamsterGame {
 	 * the east after this operation got executed.
 	 */
 	public void turnRight() {
-		// TODO your code for A3 goes here.
+		// TODO your code for A4 goes here.
 	}
 
 	public Hamster getHamster() {
@@ -21,6 +21,6 @@ public class ExerciseHamsterGame extends InternalExerciseHamsterGame {
 
 	@Override
 	void hamsterRun() {
-		// TODO your code for A4 goes here.
+		// TODO your code for A3 goes here.
 	}
 }
