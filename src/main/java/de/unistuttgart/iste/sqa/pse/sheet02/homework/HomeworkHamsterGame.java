@@ -10,8 +10,7 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 	/*
 	 * Confused Paule! Help Paule to walk through the territory and to bring all the
 	 * grains into his cave. In the process Paule should collect all grains on the
-	 * field and deposit them in his cave (lower left corner - row 4 * column 1 and
-	 * indexing starts with 0).
+	 * field and deposit them in his cave.
 	 */
 	@Override
 	protected void hamsterRun() {
