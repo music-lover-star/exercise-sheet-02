@@ -33,10 +33,127 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 		paule.turnLeft();
 		paule.turnLeft();
 
-		// You can remove this line
-		paule.write("I do not know how to continue:'(");
-
 		// Move to the second grain
+		paule.move();
+		paule.move();
+
+		// Turn in the direction of the second grain
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//Move to second grain
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//Pick up second grain
+		paule.pickGrain();
+
+		//Turn in the direction of third grain
+		paule.turnLeft();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of third grain
+		paule.move();
+		paule.move();
+
+		//Pick up third grain
+		paule.pickGrain();
+
+		//Turn in the direction of the fourth grain
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of the fourth grain
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//turn in the direction of the fourth grain
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of the fourth grain
+		paule.move();
+		paule.move();
+
+		//turn in the direction of the fourth grain
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of the fourth grain
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//pick up fourth and fifth and sixth grain
+		paule.pickGrain();
+		paule.pickGrain();
+		paule.pickGrain();
+
+		//turn in the direction of hohle
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of hohle
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//turn in the direction of hohle
+		paule.turnLeft();
+
+		//move in the direction of hohle
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//Turn in the direction of hohle
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of hohle
+		paule.move();
+		paule.move();
+
+		//Turn in the direction of hohle 
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+
+		//move in the direction of hohle
+		paule.move();
+		paule.move();
+		paule.move();
+
+		//Put grain in hohle
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+
+		//write "Wuhu,I did it!"
+		paule.write("wuhu, I did it !");
+
+	}
+
+}
+
+		
+		
+		
+		
+		
 		// TODO:implement
 
 		// Pick up the second grain
